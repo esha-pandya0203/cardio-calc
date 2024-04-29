@@ -1,0 +1,33 @@
+.tile {
+    width: 55%;
+    height: 40%;
+    border-radius: 5%;
+    background-color: #ffffff;
+    border: none; 
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+}
+
+.tile:hover {
+    background-color: #E12D62;
+}
+
+.tile:hover .tile-icon {
+    color: #ffffff; 
+}
+
+.tile:hover .category {
+    color: #ffffff; 
+}
+
+.tile-icon {
+    color: #E12D62;
+    font-size: 1.5rem;
+}
+.category {
+    color: #E12D62;
+    margin-left: 0.2rem;
+    font-size: 1.3rem;
+}

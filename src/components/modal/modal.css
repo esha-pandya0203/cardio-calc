@@ -1,0 +1,35 @@
+#contained-modal-title-vcenter {
+    color: #E12D62;
+}
+
+.modal-body {
+    display: flex;
+    height: 20rem;
+    margin-top: 1rem;
+}
+
+.equations {
+    flex: 1;
+    overflow-y: scroll;
+    margin-left: 1rem;
+}
+
+.equation-name {
+    color: #002856;
+    margin-bottom: 1rem;
+}
+
+.equation-name:hover {
+    color: #E12D62;
+}
+
+.calculator {
+    flex: 3; 
+    padding: 0 20px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
